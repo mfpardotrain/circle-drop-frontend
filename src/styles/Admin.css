@@ -1,0 +1,32 @@
+table {
+    padding: 20px;
+    background-color: lightgrey;
+    margin: auto;
+    border-radius: 3px;
+    border-spacing: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+th {
+    border-bottom: 1px solid black;
+    padding: 3px 10px;
+    width: auto;
+}
+
+tr {
+    padding: 3px 10px;
+    width: 100px;
+}
+
+.del-button {
+font-size: 18px;
+    background-color: rgb(255, 152, 152);
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+}
+
+.del-button:hover {
+    cursor: pointer;
+}

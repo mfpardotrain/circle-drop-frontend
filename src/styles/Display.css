@@ -1,0 +1,139 @@
+.display-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-letter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    margin: 7px;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 24px;
+    color: rgb(230, 230, 230);
+    background-color: rgb(143, 143, 143);
+}
+
+.display-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(4px)
+    }
+
+    20% {
+        transform: translateX(-4px)
+    }
+
+    40% {
+        transform: translateX(4px)
+    }
+
+    60% {
+        transform: translateX(-4px)
+    }
+
+    80% {
+        transform: translateX(4px)
+    }
+
+    100% {
+        transform: translateX(-4px)
+    }
+}
+
+.shake {
+    animation-name: shake;
+    animation-duration: 0.5s;
+}
+
+@keyframes flip {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    50% {
+        transform: rotateY(90deg);
+    }
+
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+
+.flip {
+    animation-name: flip;
+    animation-duration: 0.7s;
+    animation-timing-function: linear;
+}
+
+@keyframes darkgrey {
+    0% {
+        background-color: rgb(143, 143, 143);
+    }
+
+    100% {
+        background-color: rgb(51, 51, 51);
+    }
+}
+
+.darkgrey {
+    animation-name: darkgrey;
+    animation-duration: 0.35s;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1, end);
+}
+
+@keyframes green {
+    0% {
+        background-color: rgb(143, 143, 143);
+    }
+
+    100% {
+        background-color: rgb(99, 194, 90);
+    }
+}
+
+.green {
+    animation-name: green;
+    animation-duration: 0.35s;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1, end);
+}
+
+@keyframes yellow {
+    0% {
+        background-color: rgb(143, 143, 143);
+    }
+
+    100% {
+        background-color: rgb(209, 189, 97);
+    }
+}
+
+.yellow {
+    animation-name: yellow;
+    animation-duration: 0.35s;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1, end);
+}
+
+@media screen and (max-width: 1000px) {
+
+    .display-letter {
+        width: 25px;
+        height: 25px;
+    }
+}

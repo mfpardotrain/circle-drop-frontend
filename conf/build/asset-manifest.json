@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6e0bae17.chunk.css",
+    "main.js": "/static/js/main.25557cf4.chunk.js",
+    "main.js.map": "/static/js/main.25557cf4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b648a9c1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b648a9c1.js.map",
+    "static/js/2.488966fe.chunk.js": "/static/js/2.488966fe.chunk.js",
+    "static/js/2.488966fe.chunk.js.map": "/static/js/2.488966fe.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9a2cc8b898b4a1903f050973720d88a6.js": "/precache-manifest.9a2cc8b898b4a1903f050973720d88a6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6e0bae17.chunk.css.map": "/static/css/main.6e0bae17.chunk.css.map",
+    "static/js/2.488966fe.chunk.js.LICENSE.txt": "/static/js/2.488966fe.chunk.js.LICENSE.txt",
+    "static/media/brown-logo.svg": "/static/media/brown-logo.3e9431dc.svg",
+    "static/media/cows.jpg": "/static/media/cows.91ddc8b3.jpg",
+    "static/media/market.svg": "/static/media/market.3bb4ac0e.svg",
+    "static/media/order-history.svg": "/static/media/order-history.51ec7044.svg",
+    "static/media/order.svg": "/static/media/order.43350967.svg",
+    "static/media/OrderForm.css": "/static/media/sheep.723985ad.jpg",
+    "static/media/straight-logo-no-icon.svg": "/static/media/straight-logo-no-icon.09a1068c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b648a9c1.js",
+    "static/js/2.488966fe.chunk.js",
+    "static/css/main.6e0bae17.chunk.css",
+    "static/js/main.25557cf4.chunk.js"
+  ]
+}

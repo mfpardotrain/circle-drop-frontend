@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+html {
+  background-color: #201E1F;
+  height: max-content;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.app-header img {
+  width: 100%;
+  height: auto;
+}
+
+.App {
+  font-family: 'Fredoka', Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+}
+
+#root {
+  width: 100%;
+}
+
+.css-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(64, 68, 73);
+  border-radius: 5px;
+  padding: 2px 5px;
+  z-index: 1000;
+}
+
+.logo-letter {
+  z-index: 1000;
+  padding: 0px 2px;
+  font-weight: bold;
+}
+
+.letter-green {
+  color: rgb(99, 194, 90);
+}
+
+.letter-yellow {
+  color: rgb(209, 189, 97);
+}
+
+.letter-grey {
+  color: rgb(165, 165, 165);
+}

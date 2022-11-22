@@ -1,0 +1,39 @@
+.letter-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(99, 99, 99);
+    color: rgb(219, 219, 219);
+    min-width: 25px;
+    padding: 0px 10px;
+    height: 35px;
+    margin: 0px 4px;
+}
+
+.letter-container:hover {
+    cursor: pointer;
+}
+
+.green {
+    background-color: rgb(99, 194, 90);
+}
+
+.yellow {
+    background-color: rgb(209, 189, 97);
+}
+
+.darkgrey {
+    background-color: rgb(53, 53, 53);
+}
+
+@media screen and (max-width: 1000px) {
+
+    .letter-container {
+        min-width: 13px;
+        min-height: 45px;
+        font-size: 12px;
+        margin: 0px 2px;
+    }
+}

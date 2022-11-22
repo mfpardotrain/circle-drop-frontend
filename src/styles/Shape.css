@@ -1,0 +1,14 @@
+.shape {
+    /* border-radius: 100%; */
+    background-color: #A4BAB7;
+    opacity: 70%;
+    transition: height 2s, width 2s;
+}
+
+.shape:hover {
+    cursor: pointer;
+}
+
+#target {
+    background-color: #A52422;
+}

@@ -1,0 +1,116 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    width: auto;
+    border: 1px solid #888;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.winner-container {
+    padding: 40px 80px;
+}
+
+.loser-container {
+    padding: 40px 80px;
+}
+
+.loser, .winner {
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.modal-background {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: auto;
+}
+
+.quit-button, .new-game-button {
+    z-index: 1001;
+    font-size: 28px;
+    background-color: rgb(255, 152, 152);
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    top: 20px;
+}
+
+.new-game-button {
+    position: fixed;
+    background-color: rgb(64, 72, 78);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.your-id {
+    background-color: rgb(182, 116, 243);
+    opacity: 80%;
+    padding : 4px;
+    border: 1px solid rgb(140, 80, 209);
+}
+
+.choose-name-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.default-label {
+    color: white;
+    font-size: 28px;
+}
+
+.default-input {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.lobby-table {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .quit-button {
+        font-size: 20px;
+    }
+
+    .winner, .loser {
+        font-size: 18px;
+    }
+}
